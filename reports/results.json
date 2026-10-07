@@ -1,0 +1,2131 @@
+{
+  "stealth": {
+    "0.0": [
+      {
+        "rules": {
+          "alerts": 1680,
+          "recall": 0.6761904761904762,
+          "precision": 0.08452380952380953,
+          "recall_by_typology": {
+            "structuring": 0.54,
+            "layering": 0.7647058823529411,
+            "cycle": 0.6153846153846154,
+            "gather_scatter": 1.0
+          },
+          "false_positives": {
+            "cash_business": 907,
+            "ordinary": 566,
+            "processor": 39,
+            "bill_split": 20,
+            "merchant": 4,
+            "payroll": 2
+          }
+        },
+        "account (A)": {
+          "alerts": 300,
+          "recall": 0.9666666666666667,
+          "precision": 0.6766666666666666,
+          "recall_by_typology": {
+            "structuring": 1.0,
+            "layering": 0.9176470588235294,
+            "cycle": 1.0,
+            "gather_scatter": 1.0
+          },
+          "false_positives": {
+            "ordinary": 78,
+            "cash_business": 17,
+            "processor": 1,
+            "bill_split": 1
+          },
+          "pr_auc": 0.9573309467681862,
+          "recall_at_rules_volume": 1.0
+        },
+        "account + flow match": {
+          "alerts": 300,
+          "recall": 0.9666666666666667,
+          "precision": 0.6766666666666666,
+          "recall_by_typology": {
+            "structuring": 1.0,
+            "layering": 0.9176470588235294,
+            "cycle": 1.0,
+            "gather_scatter": 1.0
+          },
+          "false_positives": {
+            "ordinary": 79,
+            "cash_business": 16,
+            "processor": 1,
+            "bill_split": 1
+          },
+          "pr_auc": 0.9577664199964396,
+          "recall_at_rules_volume": 1.0
+        },
+        "account + network (A+B)": {
+          "alerts": 300,
+          "recall": 0.9761904761904762,
+          "precision": 0.6833333333333333,
+          "recall_by_typology": {
+            "structuring": 1.0,
+            "layering": 0.9411764705882353,
+            "cycle": 1.0,
+            "gather_scatter": 1.0
+          },
+          "false_positives": {
+            "ordinary": 76,
+            "cash_business": 17,
+            "processor": 1,
+            "payroll": 1
+          },
+          "pr_auc": 0.9717549958727686,
+          "recall_at_rules_volume": 1.0
+        },
+        "account + flow + network": {
+          "alerts": 300,
+          "recall": 0.9761904761904762,
+          "precision": 0.6833333333333333,
+          "recall_by_typology": {
+            "structuring": 1.0,
+            "layering": 0.9411764705882353,
+            "cycle": 1.0,
+            "gather_scatter": 1.0
+          },
+          "false_positives": {
+            "ordinary": 76,
+            "cash_business": 17,
+            "processor": 1,
+            "payroll": 1
+          },
+          "pr_auc": 0.9721669905693885,
+          "recall_at_rules_volume": 1.0
+        },
+        "network only (B)": {
+          "alerts": 300,
+          "recall": 0.4666666666666667,
+          "precision": 0.32666666666666666,
+          "recall_by_typology": {
+            "structuring": 0.04,
+            "layering": 0.32941176470588235,
+            "cycle": 1.0,
+            "gather_scatter": 0.3
+          },
+          "false_positives": {
+            "ordinary": 181,
+            "cash_business": 9,
+            "merchant": 4,
+            "processor": 3,
+            "bill_split": 3,
+            "payroll": 2
+          },
+          "pr_auc": 0.45373961435487786,
+          "recall_at_rules_volume": 0.719047619047619
+        }
+      },
+      {
+        "rules": {
+          "alerts": 1708,
+          "recall": 0.6009852216748769,
+          "precision": 0.07142857142857142,
+          "recall_by_typology": {
+            "structuring": 0.54,
+            "layering": 0.4268292682926829,
+            "cycle": 0.8360655737704918,
+            "gather_scatter": 0.9
+          },
+          "false_positives": {
+            "cash_business": 872,
+            "ordinary": 631,
+            "processor": 40,
+            "bill_split": 34,
+            "merchant": 6,
+            "payroll": 3
+          }
+        },
+        "account (A)": {
+          "alerts": 300,
+          "recall": 0.9507389162561576,
+          "precision": 0.6433333333333333,
+          "recall_by_typology": {
+            "structuring": 1.0,
+            "layering": 0.8902439024390244,
+            "cycle": 1.0,
+            "gather_scatter": 0.9
+          },
+          "false_positives": {
+            "ordinary": 86,
+            "cash_business": 19,
+            "bill_split": 2
+          },
+          "pr_auc": 0.9508443825266653,
+          "recall_at_rules_volume": 1.0
+        },
+        "account + flow match": {
+          "alerts": 300,
+          "recall": 0.9458128078817734,
+          "precision": 0.64,
+          "recall_by_typology": {
+            "structuring": 0.98,
+            "layering": 0.8902439024390244,
+            "cycle": 1.0,
+            "gather_scatter": 0.9
+          },
+          "false_positives": {
+            "ordinary": 88,
+            "cash_business": 18,
+            "bill_split": 2
+          },
+          "pr_auc": 0.950539950241664,
+          "recall_at_rules_volume": 1.0
+        },
+        "account + network (A+B)": {
+          "alerts": 300,
+          "recall": 0.9655172413793104,
+          "precision": 0.6533333333333333,
+          "recall_by_typology": {
+            "structuring": 1.0,
+            "layering": 0.926829268292683,
+            "cycle": 1.0,
+            "gather_scatter": 0.9
+          },
+          "false_positives": {
+            "ordinary": 78,
+            "cash_business": 24,
+            "bill_split": 2
+          },
+          "pr_auc": 0.968691896820682,
+          "recall_at_rules_volume": 1.0
+        },
+        "account + flow + network": {
+          "alerts": 300,
+          "recall": 0.9704433497536946,
+          "precision": 0.6566666666666666,
+          "recall_by_typology": {
+            "structuring": 1.0,
+            "layering": 0.9390243902439024,
+            "cycle": 1.0,
+            "gather_scatter": 0.9
+          },
+          "false_positives": {
+            "ordinary": 78,
+            "cash_business": 23,
+            "bill_split": 2
+          },
+          "pr_auc": 0.9691616142613219,
+          "recall_at_rules_volume": 1.0
+        },
+        "network only (B)": {
+          "alerts": 300,
+          "recall": 0.4236453201970443,
+          "precision": 0.2866666666666667,
+          "recall_by_typology": {
+            "structuring": 0.0,
+            "layering": 0.24390243902439024,
+            "cycle": 1.0,
+            "gather_scatter": 0.5
+          },
+          "false_positives": {
+            "ordinary": 192,
+            "processor": 8,
+            "cash_business": 8,
+            "merchant": 4,
+            "bill_split": 1,
+            "payroll": 1
+          },
+          "pr_auc": 0.3884172331473038,
+          "recall_at_rules_volume": 0.6551724137931034
+        }
+      },
+      {
+        "rules": {
+          "alerts": 1681,
+          "recall": 0.6517412935323383,
+          "precision": 0.07792980368828079,
+          "recall_by_typology": {
+            "structuring": 0.56,
+            "layering": 0.6216216216216216,
+            "cycle": 0.7164179104477612,
+            "gather_scatter": 0.9
+          },
+          "false_positives": {
+            "cash_business": 875,
+            "ordinary": 589,
+            "processor": 40,
+            "bill_split": 34,
+            "payroll": 7,
+            "merchant": 5
+          }
+        },
+        "account (A)": {
+          "alerts": 300,
+          "recall": 0.9502487562189055,
+          "precision": 0.6366666666666667,
+          "recall_by_typology": {
+            "structuring": 0.98,
+            "layering": 0.918918918918919,
+            "cycle": 0.9850746268656716,
+            "gather_scatter": 0.8
+          },
+          "false_positives": {
+            "ordinary": 97,
+            "cash_business": 8,
+            "processor": 2,
+            "bill_split": 2
+          },
+          "pr_auc": 0.9443719239317322,
+          "recall_at_rules_volume": 1.0
+        },
+        "account + flow match": {
+          "alerts": 300,
+          "recall": 0.9502487562189055,
+          "precision": 0.6366666666666667,
+          "recall_by_typology": {
+            "structuring": 0.98,
+            "layering": 0.918918918918919,
+            "cycle": 0.9850746268656716,
+            "gather_scatter": 0.8
+          },
+          "false_positives": {
+            "ordinary": 96,
+            "cash_business": 9,
+            "processor": 2,
+            "bill_split": 2
+          },
+          "pr_auc": 0.9489555421194417,
+          "recall_at_rules_volume": 1.0
+        },
+        "account + network (A+B)": {
+          "alerts": 300,
+          "recall": 0.9751243781094527,
+          "precision": 0.6533333333333333,
+          "recall_by_typology": {
+            "structuring": 0.98,
+            "layering": 0.972972972972973,
+            "cycle": 1.0,
+            "gather_scatter": 0.8
+          },
+          "false_positives": {
+            "ordinary": 84,
+            "cash_business": 16,
+            "processor": 2,
+            "bill_split": 1,
+            "payroll": 1
+          },
+          "pr_auc": 0.9684426662888743,
+          "recall_at_rules_volume": 1.0
+        },
+        "account + flow + network": {
+          "alerts": 300,
+          "recall": 0.9701492537313433,
+          "precision": 0.65,
+          "recall_by_typology": {
+            "structuring": 0.98,
+            "layering": 0.972972972972973,
+            "cycle": 0.9850746268656716,
+            "gather_scatter": 0.8
+          },
+          "false_positives": {
+            "ordinary": 88,
+            "cash_business": 12,
+            "processor": 2,
+            "bill_split": 2,
+            "payroll": 1
+          },
+          "pr_auc": 0.9693163347675368,
+          "recall_at_rules_volume": 1.0
+        },
+        "network only (B)": {
+          "alerts": 300,
+          "recall": 0.47761194029850745,
+          "precision": 0.32,
+          "recall_by_typology": {
+            "structuring": 0.04,
+            "layering": 0.35135135135135137,
+            "cycle": 0.9701492537313433,
+            "gather_scatter": 0.3
+          },
+          "false_positives": {
+            "ordinary": 189,
+            "cash_business": 7,
+            "processor": 4,
+            "merchant": 2,
+            "bill_split": 1,
+            "payroll": 1
+          },
+          "pr_auc": 0.4562017820647167,
+          "recall_at_rules_volume": 0.6417910447761194
+        }
+      }
+    ],
+    "0.5": [
+      {
+        "rules": {
+          "alerts": 1599,
+          "recall": 0.2904761904761905,
+          "precision": 0.03814884302689181,
+          "recall_by_typology": {
+            "structuring": 0.54,
+            "layering": 0.21176470588235294,
+            "cycle": 0.09230769230769231,
+            "gather_scatter": 1.0
+          },
+          "false_positives": {
+            "cash_business": 907,
+            "ordinary": 566,
+            "processor": 39,
+            "bill_split": 20,
+            "merchant": 4,
+            "payroll": 2
+          }
+        },
+        "account (A)": {
+          "alerts": 300,
+          "recall": 0.8095238095238095,
+          "precision": 0.5666666666666667,
+          "recall_by_typology": {
+            "structuring": 0.92,
+            "layering": 0.7294117647058823,
+            "cycle": 0.8615384615384616,
+            "gather_scatter": 0.6
+          },
+          "false_positives": {
+            "ordinary": 116,
+            "cash_business": 12,
+            "payroll": 2
+          },
+          "pr_auc": 0.8165476680874043,
+          "recall_at_rules_volume": 0.9428571428571428
+        },
+        "account + flow match": {
+          "alerts": 300,
+          "recall": 0.819047619047619,
+          "precision": 0.5733333333333334,
+          "recall_by_typology": {
+            "structuring": 0.94,
+            "layering": 0.7176470588235294,
+            "cycle": 0.8923076923076924,
+            "gather_scatter": 0.6
+          },
+          "false_positives": {
+            "ordinary": 112,
+            "cash_business": 14,
+            "payroll": 1,
+            "bill_split": 1
+          },
+          "pr_auc": 0.8389318275189269,
+          "recall_at_rules_volume": 0.9428571428571428
+        },
+        "account + network (A+B)": {
+          "alerts": 300,
+          "recall": 0.8761904761904762,
+          "precision": 0.6133333333333333,
+          "recall_by_typology": {
+            "structuring": 0.94,
+            "layering": 0.7647058823529411,
+            "cycle": 1.0,
+            "gather_scatter": 0.7
+          },
+          "false_positives": {
+            "ordinary": 102,
+            "cash_business": 13,
+            "payroll": 1
+          },
+          "pr_auc": 0.8824573078047532,
+          "recall_at_rules_volume": 0.9714285714285714
+        },
+        "account + flow + network": {
+          "alerts": 300,
+          "recall": 0.8904761904761904,
+          "precision": 0.6233333333333333,
+          "recall_by_typology": {
+            "structuring": 0.94,
+            "layering": 0.7764705882352941,
+            "cycle": 1.0,
+            "gather_scatter": 0.9
+          },
+          "false_positives": {
+            "ordinary": 99,
+            "cash_business": 13,
+            "payroll": 1
+          },
+          "pr_auc": 0.8913132325927587,
+          "recall_at_rules_volume": 0.9761904761904762
+        },
+        "network only (B)": {
+          "alerts": 300,
+          "recall": 0.4380952380952381,
+          "precision": 0.30666666666666664,
+          "recall_by_typology": {
+            "structuring": 0.12,
+            "layering": 0.18823529411764706,
+            "cycle": 1.0,
+            "gather_scatter": 0.5
+          },
+          "false_positives": {
+            "ordinary": 178,
+            "cash_business": 12,
+            "merchant": 6,
+            "bill_split": 5,
+            "processor": 4,
+            "payroll": 3
+          },
+          "pr_auc": 0.4029793220782282,
+          "recall_at_rules_volume": 0.6047619047619047
+        }
+      },
+      {
+        "rules": {
+          "alerts": 1632,
+          "recall": 0.22660098522167488,
+          "precision": 0.028186274509803922,
+          "recall_by_typology": {
+            "structuring": 0.54,
+            "layering": 0.06097560975609756,
+            "cycle": 0.09836065573770492,
+            "gather_scatter": 0.8
+          },
+          "false_positives": {
+            "cash_business": 872,
+            "ordinary": 631,
+            "processor": 40,
+            "bill_split": 34,
+            "merchant": 6,
+            "payroll": 3
+          }
+        },
+        "account (A)": {
+          "alerts": 300,
+          "recall": 0.8275862068965517,
+          "precision": 0.56,
+          "recall_by_typology": {
+            "structuring": 0.92,
+            "layering": 0.7073170731707317,
+            "cycle": 0.9344262295081968,
+            "gather_scatter": 0.7
+          },
+          "false_positives": {
+            "ordinary": 119,
+            "cash_business": 12,
+            "bill_split": 1
+          },
+          "pr_auc": 0.8065637478854362,
+          "recall_at_rules_volume": 0.9507389162561576
+        },
+        "account + flow match": {
+          "alerts": 300,
+          "recall": 0.8275862068965517,
+          "precision": 0.56,
+          "recall_by_typology": {
+            "structuring": 0.88,
+            "layering": 0.7317073170731707,
+            "cycle": 0.9180327868852459,
+            "gather_scatter": 0.8
+          },
+          "false_positives": {
+            "ordinary": 120,
+            "cash_business": 12
+          },
+          "pr_auc": 0.8336724452099658,
+          "recall_at_rules_volume": 0.9408866995073891
+        },
+        "account + network (A+B)": {
+          "alerts": 300,
+          "recall": 0.8768472906403941,
+          "precision": 0.5933333333333334,
+          "recall_by_typology": {
+            "structuring": 0.88,
+            "layering": 0.7926829268292683,
+            "cycle": 1.0,
+            "gather_scatter": 0.8
+          },
+          "false_positives": {
+            "ordinary": 106,
+            "cash_business": 11,
+            "bill_split": 2,
+            "payroll": 2,
+            "processor": 1
+          },
+          "pr_auc": 0.8751643040317452,
+          "recall_at_rules_volume": 0.9753694581280788
+        },
+        "account + flow + network": {
+          "alerts": 300,
+          "recall": 0.8817733990147784,
+          "precision": 0.5966666666666667,
+          "recall_by_typology": {
+            "structuring": 0.88,
+            "layering": 0.7926829268292683,
+            "cycle": 1.0,
+            "gather_scatter": 0.9
+          },
+          "false_positives": {
+            "ordinary": 101,
+            "cash_business": 17,
+            "processor": 1,
+            "bill_split": 1,
+            "payroll": 1
+          },
+          "pr_auc": 0.8784205679707066,
+          "recall_at_rules_volume": 0.9655172413793104
+        },
+        "network only (B)": {
+          "alerts": 300,
+          "recall": 0.3645320197044335,
+          "precision": 0.24666666666666667,
+          "recall_by_typology": {
+            "structuring": 0.06,
+            "layering": 0.10975609756097561,
+            "cycle": 1.0,
+            "gather_scatter": 0.1
+          },
+          "false_positives": {
+            "ordinary": 197,
+            "processor": 12,
+            "cash_business": 12,
+            "bill_split": 2,
+            "payroll": 2,
+            "merchant": 1
+          },
+          "pr_auc": 0.340298878799776,
+          "recall_at_rules_volume": 0.5369458128078818
+        }
+      },
+      {
+        "rules": {
+          "alerts": 1596,
+          "recall": 0.23383084577114427,
+          "precision": 0.02944862155388471,
+          "recall_by_typology": {
+            "structuring": 0.56,
+            "layering": 0.06756756756756757,
+            "cycle": 0.07462686567164178,
+            "gather_scatter": 0.9
+          },
+          "false_positives": {
+            "cash_business": 875,
+            "ordinary": 588,
+            "processor": 40,
+            "bill_split": 34,
+            "payroll": 7,
+            "merchant": 5
+          }
+        },
+        "account (A)": {
+          "alerts": 300,
+          "recall": 0.8009950248756219,
+          "precision": 0.5366666666666666,
+          "recall_by_typology": {
+            "structuring": 0.96,
+            "layering": 0.6351351351351351,
+            "cycle": 0.8955223880597015,
+            "gather_scatter": 0.6
+          },
+          "false_positives": {
+            "ordinary": 126,
+            "cash_business": 8,
+            "bill_split": 2,
+            "processor": 2,
+            "payroll": 1
+          },
+          "pr_auc": 0.7995434649953149,
+          "recall_at_rules_volume": 0.9154228855721394
+        },
+        "account + flow match": {
+          "alerts": 300,
+          "recall": 0.7860696517412935,
+          "precision": 0.5266666666666666,
+          "recall_by_typology": {
+            "structuring": 0.98,
+            "layering": 0.6486486486486487,
+            "cycle": 0.8208955223880597,
+            "gather_scatter": 0.6
+          },
+          "false_positives": {
+            "ordinary": 129,
+            "cash_business": 9,
+            "bill_split": 2,
+            "payroll": 2
+          },
+          "pr_auc": 0.8055172991583393,
+          "recall_at_rules_volume": 0.9253731343283582
+        },
+        "account + network (A+B)": {
+          "alerts": 300,
+          "recall": 0.8407960199004975,
+          "precision": 0.5633333333333334,
+          "recall_by_typology": {
+            "structuring": 0.94,
+            "layering": 0.7432432432432432,
+            "cycle": 0.8955223880597015,
+            "gather_scatter": 0.7
+          },
+          "false_positives": {
+            "ordinary": 116,
+            "processor": 6,
+            "payroll": 4,
+            "cash_business": 3,
+            "bill_split": 2
+          },
+          "pr_auc": 0.8359831672953449,
+          "recall_at_rules_volume": 0.9651741293532339
+        },
+        "account + flow + network": {
+          "alerts": 300,
+          "recall": 0.845771144278607,
+          "precision": 0.5666666666666667,
+          "recall_by_typology": {
+            "structuring": 0.94,
+            "layering": 0.7297297297297297,
+            "cycle": 0.9253731343283582,
+            "gather_scatter": 0.7
+          },
+          "false_positives": {
+            "ordinary": 115,
+            "cash_business": 7,
+            "payroll": 6,
+            "processor": 1,
+            "bill_split": 1
+          },
+          "pr_auc": 0.8508124904738497,
+          "recall_at_rules_volume": 0.9751243781094527
+        },
+        "network only (B)": {
+          "alerts": 300,
+          "recall": 0.4079601990049751,
+          "precision": 0.2733333333333333,
+          "recall_by_typology": {
+            "structuring": 0.04,
+            "layering": 0.13513513513513514,
+            "cycle": 1.0,
+            "gather_scatter": 0.3
+          },
+          "false_positives": {
+            "ordinary": 185,
+            "processor": 12,
+            "cash_business": 11,
+            "merchant": 5,
+            "bill_split": 3,
+            "payroll": 2
+          },
+          "pr_auc": 0.40366975439820635,
+          "recall_at_rules_volume": 0.5870646766169154
+        }
+      }
+    ],
+    "1.0": [
+      {
+        "rules": {
+          "alerts": 1586,
+          "recall": 0.22857142857142856,
+          "precision": 0.03026481715006305,
+          "recall_by_typology": {
+            "structuring": 0.54,
+            "layering": 0.1411764705882353,
+            "cycle": 0.09230769230769231,
+            "gather_scatter": 0.3
+          },
+          "false_positives": {
+            "cash_business": 907,
+            "ordinary": 566,
+            "processor": 39,
+            "bill_split": 20,
+            "merchant": 4,
+            "payroll": 2
+          }
+        },
+        "account (A)": {
+          "alerts": 300,
+          "recall": 0.5333333333333333,
+          "precision": 0.37333333333333335,
+          "recall_by_typology": {
+            "structuring": 0.88,
+            "layering": 0.3176470588235294,
+            "cycle": 0.5384615384615384,
+            "gather_scatter": 0.6
+          },
+          "false_positives": {
+            "ordinary": 173,
+            "cash_business": 12,
+            "payroll": 2,
+            "bill_split": 1
+          },
+          "pr_auc": 0.4793700795615868,
+          "recall_at_rules_volume": 0.8047619047619048
+        },
+        "account + flow match": {
+          "alerts": 300,
+          "recall": 0.6476190476190476,
+          "precision": 0.4533333333333333,
+          "recall_by_typology": {
+            "structuring": 0.9,
+            "layering": 0.49411764705882355,
+            "cycle": 0.676923076923077,
+            "gather_scatter": 0.5
+          },
+          "false_positives": {
+            "ordinary": 147,
+            "cash_business": 12,
+            "bill_split": 3,
+            "payroll": 2
+          },
+          "pr_auc": 0.6436055733992763,
+          "recall_at_rules_volume": 0.8142857142857143
+        },
+        "account + network (A+B)": {
+          "alerts": 300,
+          "recall": 0.6428571428571429,
+          "precision": 0.45,
+          "recall_by_typology": {
+            "structuring": 0.9,
+            "layering": 0.3176470588235294,
+            "cycle": 0.8769230769230769,
+            "gather_scatter": 0.6
+          },
+          "false_positives": {
+            "ordinary": 145,
+            "cash_business": 13,
+            "bill_split": 4,
+            "payroll": 3
+          },
+          "pr_auc": 0.6555101273229971,
+          "recall_at_rules_volume": 0.8761904761904762
+        },
+        "account + flow + network": {
+          "alerts": 300,
+          "recall": 0.7238095238095238,
+          "precision": 0.5066666666666667,
+          "recall_by_typology": {
+            "structuring": 0.92,
+            "layering": 0.5176470588235295,
+            "cycle": 0.8769230769230769,
+            "gather_scatter": 0.5
+          },
+          "false_positives": {
+            "ordinary": 131,
+            "cash_business": 10,
+            "bill_split": 5,
+            "payroll": 2
+          },
+          "pr_auc": 0.7177141293919678,
+          "recall_at_rules_volume": 0.8904761904761904
+        },
+        "network only (B)": {
+          "alerts": 300,
+          "recall": 0.3,
+          "precision": 0.21,
+          "recall_by_typology": {
+            "structuring": 0.06,
+            "layering": 0.023529411764705882,
+            "cycle": 0.8461538461538461,
+            "gather_scatter": 0.3
+          },
+          "false_positives": {
+            "ordinary": 212,
+            "cash_business": 7,
+            "merchant": 6,
+            "bill_split": 5,
+            "processor": 4,
+            "payroll": 3
+          },
+          "pr_auc": 0.3258342812405591,
+          "recall_at_rules_volume": 0.5857142857142857
+        }
+      },
+      {
+        "rules": {
+          "alerts": 1622,
+          "recall": 0.17733990147783252,
+          "precision": 0.02219482120838471,
+          "recall_by_typology": {
+            "structuring": 0.54,
+            "layering": 0.06097560975609756,
+            "cycle": 0.04918032786885246,
+            "gather_scatter": 0.1
+          },
+          "false_positives": {
+            "cash_business": 872,
+            "ordinary": 631,
+            "processor": 40,
+            "bill_split": 34,
+            "merchant": 6,
+            "payroll": 3
+          }
+        },
+        "account (A)": {
+          "alerts": 300,
+          "recall": 0.5270935960591133,
+          "precision": 0.3566666666666667,
+          "recall_by_typology": {
+            "structuring": 0.86,
+            "layering": 0.32926829268292684,
+            "cycle": 0.47540983606557374,
+            "gather_scatter": 0.8
+          },
+          "false_positives": {
+            "ordinary": 184,
+            "cash_business": 7,
+            "bill_split": 2
+          },
+          "pr_auc": 0.48184795692759214,
+          "recall_at_rules_volume": 0.7881773399014779
+        },
+        "account + flow match": {
+          "alerts": 300,
+          "recall": 0.6403940886699507,
+          "precision": 0.43333333333333335,
+          "recall_by_typology": {
+            "structuring": 0.86,
+            "layering": 0.45121951219512196,
+            "cycle": 0.6557377049180327,
+            "gather_scatter": 1.0
+          },
+          "false_positives": {
+            "ordinary": 155,
+            "cash_business": 13,
+            "bill_split": 2
+          },
+          "pr_auc": 0.5914060006309697,
+          "recall_at_rules_volume": 0.7783251231527094
+        },
+        "account + network (A+B)": {
+          "alerts": 300,
+          "recall": 0.6600985221674877,
+          "precision": 0.44666666666666666,
+          "recall_by_typology": {
+            "structuring": 0.82,
+            "layering": 0.2926829268292683,
+            "cycle": 0.9836065573770492,
+            "gather_scatter": 0.9
+          },
+          "false_positives": {
+            "ordinary": 142,
+            "cash_business": 17,
+            "bill_split": 4,
+            "payroll": 2,
+            "processor": 1
+          },
+          "pr_auc": 0.6391434726186777,
+          "recall_at_rules_volume": 0.8423645320197044
+        },
+        "account + flow + network": {
+          "alerts": 300,
+          "recall": 0.7142857142857143,
+          "precision": 0.48333333333333334,
+          "recall_by_typology": {
+            "structuring": 0.86,
+            "layering": 0.4146341463414634,
+            "cycle": 0.9672131147540983,
+            "gather_scatter": 0.9
+          },
+          "false_positives": {
+            "ordinary": 135,
+            "cash_business": 14,
+            "bill_split": 3,
+            "payroll": 2,
+            "processor": 1
+          },
+          "pr_auc": 0.6794299234388482,
+          "recall_at_rules_volume": 0.8620689655172413
+        },
+        "network only (B)": {
+          "alerts": 300,
+          "recall": 0.31527093596059114,
+          "precision": 0.21333333333333335,
+          "recall_by_typology": {
+            "structuring": 0.02,
+            "layering": 0.07317073170731707,
+            "cycle": 0.9180327868852459,
+            "gather_scatter": 0.1
+          },
+          "false_positives": {
+            "ordinary": 200,
+            "cash_business": 13,
+            "bill_split": 10,
+            "processor": 8,
+            "merchant": 3,
+            "payroll": 2
+          },
+          "pr_auc": 0.28788542806835626,
+          "recall_at_rules_volume": 0.4975369458128079
+        }
+      },
+      {
+        "rules": {
+          "alerts": 1586,
+          "recall": 0.18407960199004975,
+          "precision": 0.023329129886506934,
+          "recall_by_typology": {
+            "structuring": 0.56,
+            "layering": 0.04054054054054054,
+            "cycle": 0.07462686567164178,
+            "gather_scatter": 0.1
+          },
+          "false_positives": {
+            "cash_business": 875,
+            "ordinary": 588,
+            "processor": 40,
+            "bill_split": 34,
+            "payroll": 7,
+            "merchant": 5
+          }
+        },
+        "account (A)": {
+          "alerts": 300,
+          "recall": 0.5621890547263682,
+          "precision": 0.37666666666666665,
+          "recall_by_typology": {
+            "structuring": 0.9,
+            "layering": 0.35135135135135137,
+            "cycle": 0.5373134328358209,
+            "gather_scatter": 0.6
+          },
+          "false_positives": {
+            "ordinary": 179,
+            "cash_business": 7,
+            "bill_split": 1
+          },
+          "pr_auc": 0.49575675888420173,
+          "recall_at_rules_volume": 0.7611940298507462
+        },
+        "account + flow match": {
+          "alerts": 300,
+          "recall": 0.6567164179104478,
+          "precision": 0.44,
+          "recall_by_typology": {
+            "structuring": 0.9,
+            "layering": 0.4864864864864865,
+            "cycle": 0.6716417910447762,
+            "gather_scatter": 0.6
+          },
+          "false_positives": {
+            "ordinary": 157,
+            "cash_business": 9,
+            "bill_split": 1,
+            "payroll": 1
+          },
+          "pr_auc": 0.6005097229549691,
+          "recall_at_rules_volume": 0.7810945273631841
+        },
+        "account + network (A+B)": {
+          "alerts": 300,
+          "recall": 0.6915422885572139,
+          "precision": 0.4633333333333333,
+          "recall_by_typology": {
+            "structuring": 0.96,
+            "layering": 0.33783783783783783,
+            "cycle": 0.8805970149253731,
+            "gather_scatter": 0.7
+          },
+          "false_positives": {
+            "ordinary": 145,
+            "cash_business": 11,
+            "payroll": 3,
+            "bill_split": 2
+          },
+          "pr_auc": 0.683573574711226,
+          "recall_at_rules_volume": 0.845771144278607
+        },
+        "account + flow + network": {
+          "alerts": 300,
+          "recall": 0.746268656716418,
+          "precision": 0.5,
+          "recall_by_typology": {
+            "structuring": 0.96,
+            "layering": 0.5,
+            "cycle": 0.8805970149253731,
+            "gather_scatter": 0.6
+          },
+          "false_positives": {
+            "ordinary": 129,
+            "cash_business": 16,
+            "payroll": 3,
+            "bill_split": 2
+          },
+          "pr_auc": 0.727239328779862,
+          "recall_at_rules_volume": 0.8756218905472637
+        },
+        "network only (B)": {
+          "alerts": 300,
+          "recall": 0.35323383084577115,
+          "precision": 0.23666666666666666,
+          "recall_by_typology": {
+            "structuring": 0.1,
+            "layering": 0.0945945945945946,
+            "cycle": 0.8656716417910447,
+            "gather_scatter": 0.1
+          },
+          "false_positives": {
+            "ordinary": 197,
+            "processor": 9,
+            "merchant": 9,
+            "cash_business": 8,
+            "bill_split": 3,
+            "payroll": 3
+          },
+          "pr_auc": 0.3278129286715427,
+          "recall_at_rules_volume": 0.47761194029850745
+        }
+      }
+    ]
+  },
+  "coverage": {
+    "1.0": [
+      {
+        "rules": {
+          "alerts": 1599,
+          "recall": 0.2904761904761905,
+          "precision": 0.03814884302689181,
+          "recall_by_typology": {
+            "structuring": 0.54,
+            "layering": 0.21176470588235294,
+            "cycle": 0.09230769230769231,
+            "gather_scatter": 1.0
+          },
+          "false_positives": {
+            "cash_business": 907,
+            "ordinary": 566,
+            "processor": 39,
+            "bill_split": 20,
+            "merchant": 4,
+            "payroll": 2
+          }
+        },
+        "account (A)": {
+          "alerts": 300,
+          "recall": 0.8095238095238095,
+          "precision": 0.5666666666666667,
+          "recall_by_typology": {
+            "structuring": 0.92,
+            "layering": 0.7294117647058823,
+            "cycle": 0.8615384615384616,
+            "gather_scatter": 0.6
+          },
+          "false_positives": {
+            "ordinary": 116,
+            "cash_business": 12,
+            "payroll": 2
+          },
+          "pr_auc": 0.8165476680874043,
+          "recall_at_rules_volume": 0.9428571428571428
+        },
+        "account + flow match": {
+          "alerts": 300,
+          "recall": 0.819047619047619,
+          "precision": 0.5733333333333334,
+          "recall_by_typology": {
+            "structuring": 0.94,
+            "layering": 0.7176470588235294,
+            "cycle": 0.8923076923076924,
+            "gather_scatter": 0.6
+          },
+          "false_positives": {
+            "ordinary": 112,
+            "cash_business": 14,
+            "payroll": 1,
+            "bill_split": 1
+          },
+          "pr_auc": 0.8389318275189269,
+          "recall_at_rules_volume": 0.9428571428571428
+        },
+        "account + network (A+B)": {
+          "alerts": 300,
+          "recall": 0.8761904761904762,
+          "precision": 0.6133333333333333,
+          "recall_by_typology": {
+            "structuring": 0.94,
+            "layering": 0.7647058823529411,
+            "cycle": 1.0,
+            "gather_scatter": 0.7
+          },
+          "false_positives": {
+            "ordinary": 102,
+            "cash_business": 13,
+            "payroll": 1
+          },
+          "pr_auc": 0.8824573078047532,
+          "recall_at_rules_volume": 0.9714285714285714
+        },
+        "account + flow + network": {
+          "alerts": 300,
+          "recall": 0.8904761904761904,
+          "precision": 0.6233333333333333,
+          "recall_by_typology": {
+            "structuring": 0.94,
+            "layering": 0.7764705882352941,
+            "cycle": 1.0,
+            "gather_scatter": 0.9
+          },
+          "false_positives": {
+            "ordinary": 99,
+            "cash_business": 13,
+            "payroll": 1
+          },
+          "pr_auc": 0.8913132325927587,
+          "recall_at_rules_volume": 0.9761904761904762
+        },
+        "network only (B)": {
+          "alerts": 300,
+          "recall": 0.4380952380952381,
+          "precision": 0.30666666666666664,
+          "recall_by_typology": {
+            "structuring": 0.12,
+            "layering": 0.18823529411764706,
+            "cycle": 1.0,
+            "gather_scatter": 0.5
+          },
+          "false_positives": {
+            "ordinary": 178,
+            "cash_business": 12,
+            "merchant": 6,
+            "bill_split": 5,
+            "processor": 4,
+            "payroll": 3
+          },
+          "pr_auc": 0.4029793220782282,
+          "recall_at_rules_volume": 0.6047619047619047
+        }
+      },
+      {
+        "rules": {
+          "alerts": 1632,
+          "recall": 0.22660098522167488,
+          "precision": 0.028186274509803922,
+          "recall_by_typology": {
+            "structuring": 0.54,
+            "layering": 0.06097560975609756,
+            "cycle": 0.09836065573770492,
+            "gather_scatter": 0.8
+          },
+          "false_positives": {
+            "cash_business": 872,
+            "ordinary": 631,
+            "processor": 40,
+            "bill_split": 34,
+            "merchant": 6,
+            "payroll": 3
+          }
+        },
+        "account (A)": {
+          "alerts": 300,
+          "recall": 0.8423645320197044,
+          "precision": 0.57,
+          "recall_by_typology": {
+            "structuring": 0.92,
+            "layering": 0.7073170731707317,
+            "cycle": 0.9344262295081968,
+            "gather_scatter": 1.0
+          },
+          "false_positives": {
+            "ordinary": 117,
+            "cash_business": 12
+          },
+          "pr_auc": 0.804669115609128,
+          "recall_at_rules_volume": 0.9556650246305419
+        },
+        "account + flow match": {
+          "alerts": 300,
+          "recall": 0.8522167487684729,
+          "precision": 0.5766666666666667,
+          "recall_by_typology": {
+            "structuring": 0.88,
+            "layering": 0.7317073170731707,
+            "cycle": 0.9672131147540983,
+            "gather_scatter": 1.0
+          },
+          "false_positives": {
+            "ordinary": 114,
+            "cash_business": 11,
+            "bill_split": 1,
+            "payroll": 1
+          },
+          "pr_auc": 0.8422925265050147,
+          "recall_at_rules_volume": 0.9556650246305419
+        },
+        "account + network (A+B)": {
+          "alerts": 300,
+          "recall": 0.8719211822660099,
+          "precision": 0.59,
+          "recall_by_typology": {
+            "structuring": 0.92,
+            "layering": 0.7439024390243902,
+            "cycle": 1.0,
+            "gather_scatter": 0.9
+          },
+          "false_positives": {
+            "ordinary": 112,
+            "cash_business": 8,
+            "processor": 1,
+            "bill_split": 1,
+            "payroll": 1
+          },
+          "pr_auc": 0.864744765973427,
+          "recall_at_rules_volume": 0.9605911330049262
+        },
+        "account + flow + network": {
+          "alerts": 300,
+          "recall": 0.8768472906403941,
+          "precision": 0.5933333333333334,
+          "recall_by_typology": {
+            "structuring": 0.88,
+            "layering": 0.7804878048780488,
+            "cycle": 1.0,
+            "gather_scatter": 0.9
+          },
+          "false_positives": {
+            "ordinary": 108,
+            "cash_business": 12,
+            "processor": 1,
+            "bill_split": 1
+          },
+          "pr_auc": 0.8813245791207254,
+          "recall_at_rules_volume": 0.9655172413793104
+        },
+        "network only (B)": {
+          "alerts": 300,
+          "recall": 0.35960591133004927,
+          "precision": 0.24333333333333335,
+          "recall_by_typology": {
+            "structuring": 0.06,
+            "layering": 0.0975609756097561,
+            "cycle": 0.9836065573770492,
+            "gather_scatter": 0.2
+          },
+          "false_positives": {
+            "ordinary": 195,
+            "cash_business": 13,
+            "processor": 12,
+            "bill_split": 5,
+            "merchant": 1,
+            "payroll": 1
+          },
+          "pr_auc": 0.3389991055693253,
+          "recall_at_rules_volume": 0.5467980295566502
+        }
+      },
+      {
+        "rules": {
+          "alerts": 1596,
+          "recall": 0.23383084577114427,
+          "precision": 0.02944862155388471,
+          "recall_by_typology": {
+            "structuring": 0.56,
+            "layering": 0.06756756756756757,
+            "cycle": 0.07462686567164178,
+            "gather_scatter": 0.9
+          },
+          "false_positives": {
+            "cash_business": 875,
+            "ordinary": 588,
+            "processor": 40,
+            "bill_split": 34,
+            "payroll": 7,
+            "merchant": 5
+          }
+        },
+        "account (A)": {
+          "alerts": 300,
+          "recall": 0.7960199004975125,
+          "precision": 0.5333333333333333,
+          "recall_by_typology": {
+            "structuring": 0.96,
+            "layering": 0.6621621621621622,
+            "cycle": 0.835820895522388,
+            "gather_scatter": 0.7
+          },
+          "false_positives": {
+            "ordinary": 126,
+            "cash_business": 9,
+            "bill_split": 3,
+            "processor": 1,
+            "payroll": 1
+          },
+          "pr_auc": 0.7950790259135169,
+          "recall_at_rules_volume": 0.9154228855721394
+        },
+        "account + flow match": {
+          "alerts": 300,
+          "recall": 0.8109452736318408,
+          "precision": 0.5433333333333333,
+          "recall_by_typology": {
+            "structuring": 0.98,
+            "layering": 0.6621621621621622,
+            "cycle": 0.8656716417910447,
+            "gather_scatter": 0.7
+          },
+          "false_positives": {
+            "ordinary": 118,
+            "cash_business": 16,
+            "bill_split": 2,
+            "payroll": 1
+          },
+          "pr_auc": 0.8085203128985015,
+          "recall_at_rules_volume": 0.9104477611940298
+        },
+        "account + network (A+B)": {
+          "alerts": 300,
+          "recall": 0.8557213930348259,
+          "precision": 0.5733333333333334,
+          "recall_by_typology": {
+            "structuring": 0.96,
+            "layering": 0.7432432432432432,
+            "cycle": 0.9253731343283582,
+            "gather_scatter": 0.7
+          },
+          "false_positives": {
+            "ordinary": 114,
+            "cash_business": 10,
+            "bill_split": 2,
+            "payroll": 1,
+            "merchant": 1
+          },
+          "pr_auc": 0.8499501882815216,
+          "recall_at_rules_volume": 0.9651741293532339
+        },
+        "account + flow + network": {
+          "alerts": 300,
+          "recall": 0.8507462686567164,
+          "precision": 0.57,
+          "recall_by_typology": {
+            "structuring": 0.96,
+            "layering": 0.7297297297297297,
+            "cycle": 0.9253731343283582,
+            "gather_scatter": 0.7
+          },
+          "false_positives": {
+            "ordinary": 112,
+            "cash_business": 10,
+            "payroll": 5,
+            "bill_split": 2
+          },
+          "pr_auc": 0.860456123640696,
+          "recall_at_rules_volume": 0.9651741293532339
+        },
+        "network only (B)": {
+          "alerts": 300,
+          "recall": 0.40298507462686567,
+          "precision": 0.27,
+          "recall_by_typology": {
+            "structuring": 0.02,
+            "layering": 0.13513513513513514,
+            "cycle": 1.0,
+            "gather_scatter": 0.3
+          },
+          "false_positives": {
+            "ordinary": 195,
+            "cash_business": 12,
+            "processor": 6,
+            "merchant": 4,
+            "payroll": 2
+          },
+          "pr_auc": 0.3949799219691243,
+          "recall_at_rules_volume": 0.5572139303482587
+        }
+      }
+    ],
+    "0.6": [
+      {
+        "rules": {
+          "alerts": 1599,
+          "recall": 0.2904761904761905,
+          "precision": 0.03814884302689181,
+          "recall_by_typology": {
+            "structuring": 0.54,
+            "layering": 0.21176470588235294,
+            "cycle": 0.09230769230769231,
+            "gather_scatter": 1.0
+          },
+          "false_positives": {
+            "cash_business": 907,
+            "ordinary": 566,
+            "processor": 39,
+            "bill_split": 20,
+            "merchant": 4,
+            "payroll": 2
+          }
+        },
+        "account (A)": {
+          "alerts": 300,
+          "recall": 0.7476190476190476,
+          "precision": 0.5233333333333333,
+          "recall_by_typology": {
+            "structuring": 0.82,
+            "layering": 0.6235294117647059,
+            "cycle": 0.8769230769230769,
+            "gather_scatter": 0.6
+          },
+          "false_positives": {
+            "ordinary": 125,
+            "cash_business": 15,
+            "processor": 1,
+            "payroll": 1,
+            "bill_split": 1
+          },
+          "pr_auc": 0.7550820086483673,
+          "recall_at_rules_volume": 0.9285714285714286
+        },
+        "account + flow match": {
+          "alerts": 300,
+          "recall": 0.7571428571428571,
+          "precision": 0.53,
+          "recall_by_typology": {
+            "structuring": 0.82,
+            "layering": 0.611764705882353,
+            "cycle": 0.8769230769230769,
+            "gather_scatter": 0.9
+          },
+          "false_positives": {
+            "ordinary": 120,
+            "cash_business": 19,
+            "payroll": 2
+          },
+          "pr_auc": 0.7751205260610665,
+          "recall_at_rules_volume": 0.919047619047619
+        },
+        "account + network (A+B)": {
+          "alerts": 300,
+          "recall": 0.8285714285714286,
+          "precision": 0.58,
+          "recall_by_typology": {
+            "structuring": 0.84,
+            "layering": 0.7058823529411765,
+            "cycle": 1.0,
+            "gather_scatter": 0.7
+          },
+          "false_positives": {
+            "ordinary": 104,
+            "cash_business": 20,
+            "payroll": 1,
+            "bill_split": 1
+          },
+          "pr_auc": 0.8399009594121929,
+          "recall_at_rules_volume": 0.9761904761904762
+        },
+        "account + flow + network": {
+          "alerts": 300,
+          "recall": 0.8428571428571429,
+          "precision": 0.59,
+          "recall_by_typology": {
+            "structuring": 0.86,
+            "layering": 0.7058823529411765,
+            "cycle": 0.9846153846153847,
+            "gather_scatter": 1.0
+          },
+          "false_positives": {
+            "ordinary": 95,
+            "cash_business": 23,
+            "bill_split": 3,
+            "payroll": 2
+          },
+          "pr_auc": 0.8324682186614281,
+          "recall_at_rules_volume": 0.9571428571428572
+        },
+        "network only (B)": {
+          "alerts": 300,
+          "recall": 0.3904761904761905,
+          "precision": 0.2733333333333333,
+          "recall_by_typology": {
+            "structuring": 0.1,
+            "layering": 0.09411764705882353,
+            "cycle": 1.0,
+            "gather_scatter": 0.4
+          },
+          "false_positives": {
+            "ordinary": 188,
+            "cash_business": 12,
+            "processor": 6,
+            "merchant": 5,
+            "bill_split": 4,
+            "payroll": 3
+          },
+          "pr_auc": 0.3653025357567135,
+          "recall_at_rules_volume": 0.6428571428571429
+        }
+      },
+      {
+        "rules": {
+          "alerts": 1632,
+          "recall": 0.22660098522167488,
+          "precision": 0.028186274509803922,
+          "recall_by_typology": {
+            "structuring": 0.54,
+            "layering": 0.06097560975609756,
+            "cycle": 0.09836065573770492,
+            "gather_scatter": 0.8
+          },
+          "false_positives": {
+            "cash_business": 872,
+            "ordinary": 631,
+            "processor": 40,
+            "bill_split": 34,
+            "merchant": 6,
+            "payroll": 3
+          }
+        },
+        "account (A)": {
+          "alerts": 300,
+          "recall": 0.7783251231527094,
+          "precision": 0.5266666666666666,
+          "recall_by_typology": {
+            "structuring": 0.78,
+            "layering": 0.6585365853658537,
+            "cycle": 0.9344262295081968,
+            "gather_scatter": 0.8
+          },
+          "false_positives": {
+            "ordinary": 123,
+            "cash_business": 17,
+            "bill_split": 2
+          },
+          "pr_auc": 0.7597098629202012,
+          "recall_at_rules_volume": 0.9261083743842364
+        },
+        "account + flow match": {
+          "alerts": 300,
+          "recall": 0.8226600985221675,
+          "precision": 0.5566666666666666,
+          "recall_by_typology": {
+            "structuring": 0.84,
+            "layering": 0.7195121951219512,
+            "cycle": 0.9508196721311475,
+            "gather_scatter": 0.8
+          },
+          "false_positives": {
+            "ordinary": 119,
+            "cash_business": 9,
+            "payroll": 4,
+            "bill_split": 1
+          },
+          "pr_auc": 0.7984648641837363,
+          "recall_at_rules_volume": 0.916256157635468
+        },
+        "account + network (A+B)": {
+          "alerts": 300,
+          "recall": 0.7881773399014779,
+          "precision": 0.5333333333333333,
+          "recall_by_typology": {
+            "structuring": 0.8,
+            "layering": 0.6341463414634146,
+            "cycle": 0.9836065573770492,
+            "gather_scatter": 0.8
+          },
+          "false_positives": {
+            "ordinary": 121,
+            "cash_business": 14,
+            "payroll": 4,
+            "processor": 1
+          },
+          "pr_auc": 0.7937038708647307,
+          "recall_at_rules_volume": 0.9556650246305419
+        },
+        "account + flow + network": {
+          "alerts": 300,
+          "recall": 0.8177339901477833,
+          "precision": 0.5533333333333333,
+          "recall_by_typology": {
+            "structuring": 0.84,
+            "layering": 0.6707317073170732,
+            "cycle": 0.9672131147540983,
+            "gather_scatter": 1.0
+          },
+          "false_positives": {
+            "ordinary": 113,
+            "cash_business": 16,
+            "bill_split": 3,
+            "payroll": 2
+          },
+          "pr_auc": 0.8155879714236435,
+          "recall_at_rules_volume": 0.9655172413793104
+        },
+        "network only (B)": {
+          "alerts": 300,
+          "recall": 0.3645320197044335,
+          "precision": 0.24666666666666667,
+          "recall_by_typology": {
+            "structuring": 0.06,
+            "layering": 0.0975609756097561,
+            "cycle": 1.0,
+            "gather_scatter": 0.2
+          },
+          "false_positives": {
+            "ordinary": 193,
+            "processor": 13,
+            "cash_business": 12,
+            "merchant": 4,
+            "bill_split": 2,
+            "payroll": 2
+          },
+          "pr_auc": 0.3261088244779526,
+          "recall_at_rules_volume": 0.5369458128078818
+        }
+      },
+      {
+        "rules": {
+          "alerts": 1596,
+          "recall": 0.23383084577114427,
+          "precision": 0.02944862155388471,
+          "recall_by_typology": {
+            "structuring": 0.56,
+            "layering": 0.06756756756756757,
+            "cycle": 0.07462686567164178,
+            "gather_scatter": 0.9
+          },
+          "false_positives": {
+            "cash_business": 875,
+            "ordinary": 588,
+            "processor": 40,
+            "bill_split": 34,
+            "payroll": 7,
+            "merchant": 5
+          }
+        },
+        "account (A)": {
+          "alerts": 300,
+          "recall": 0.7313432835820896,
+          "precision": 0.49,
+          "recall_by_typology": {
+            "structuring": 0.84,
+            "layering": 0.6216216216216216,
+            "cycle": 0.7910447761194029,
+            "gather_scatter": 0.6
+          },
+          "false_positives": {
+            "ordinary": 133,
+            "cash_business": 16,
+            "payroll": 4
+          },
+          "pr_auc": 0.7287550327208778,
+          "recall_at_rules_volume": 0.9203980099502488
+        },
+        "account + flow match": {
+          "alerts": 300,
+          "recall": 0.7512437810945274,
+          "precision": 0.5033333333333333,
+          "recall_by_typology": {
+            "structuring": 0.82,
+            "layering": 0.6351351351351351,
+            "cycle": 0.8507462686567164,
+            "gather_scatter": 0.6
+          },
+          "false_positives": {
+            "ordinary": 118,
+            "cash_business": 20,
+            "payroll": 8,
+            "bill_split": 2,
+            "merchant": 1
+          },
+          "pr_auc": 0.7458403436555321,
+          "recall_at_rules_volume": 0.9154228855721394
+        },
+        "account + network (A+B)": {
+          "alerts": 300,
+          "recall": 0.7910447761194029,
+          "precision": 0.53,
+          "recall_by_typology": {
+            "structuring": 0.88,
+            "layering": 0.7027027027027027,
+            "cycle": 0.8507462686567164,
+            "gather_scatter": 0.6
+          },
+          "false_positives": {
+            "ordinary": 116,
+            "cash_business": 18,
+            "payroll": 6,
+            "processor": 1
+          },
+          "pr_auc": 0.7887377689902186,
+          "recall_at_rules_volume": 0.9651741293532339
+        },
+        "account + flow + network": {
+          "alerts": 300,
+          "recall": 0.8159203980099502,
+          "precision": 0.5466666666666666,
+          "recall_by_typology": {
+            "structuring": 0.94,
+            "layering": 0.7027027027027027,
+            "cycle": 0.8805970149253731,
+            "gather_scatter": 0.6
+          },
+          "false_positives": {
+            "ordinary": 113,
+            "cash_business": 16,
+            "payroll": 6,
+            "processor": 1
+          },
+          "pr_auc": 0.8030901801080961,
+          "recall_at_rules_volume": 0.9552238805970149
+        },
+        "network only (B)": {
+          "alerts": 300,
+          "recall": 0.373134328358209,
+          "precision": 0.25,
+          "recall_by_typology": {
+            "structuring": 0.04,
+            "layering": 0.12162162162162163,
+            "cycle": 0.9253731343283582,
+            "gather_scatter": 0.2
+          },
+          "false_positives": {
+            "ordinary": 205,
+            "merchant": 6,
+            "cash_business": 6,
+            "processor": 5,
+            "payroll": 3
+          },
+          "pr_auc": 0.3663971863764519,
+          "recall_at_rules_volume": 0.5373134328358209
+        }
+      }
+    ],
+    "0.3": [
+      {
+        "rules": {
+          "alerts": 1599,
+          "recall": 0.2904761904761905,
+          "precision": 0.03814884302689181,
+          "recall_by_typology": {
+            "structuring": 0.54,
+            "layering": 0.21176470588235294,
+            "cycle": 0.09230769230769231,
+            "gather_scatter": 1.0
+          },
+          "false_positives": {
+            "cash_business": 907,
+            "ordinary": 566,
+            "processor": 39,
+            "bill_split": 20,
+            "merchant": 4,
+            "payroll": 2
+          }
+        },
+        "account (A)": {
+          "alerts": 300,
+          "recall": 0.7571428571428571,
+          "precision": 0.53,
+          "recall_by_typology": {
+            "structuring": 0.78,
+            "layering": 0.6588235294117647,
+            "cycle": 0.8769230769230769,
+            "gather_scatter": 0.7
+          },
+          "false_positives": {
+            "ordinary": 126,
+            "cash_business": 13,
+            "payroll": 1,
+            "bill_split": 1
+          },
+          "pr_auc": 0.7286355745968854,
+          "recall_at_rules_volume": 0.8666666666666667
+        },
+        "account + flow match": {
+          "alerts": 300,
+          "recall": 0.7571428571428571,
+          "precision": 0.53,
+          "recall_by_typology": {
+            "structuring": 0.84,
+            "layering": 0.6823529411764706,
+            "cycle": 0.8,
+            "gather_scatter": 0.7
+          },
+          "false_positives": {
+            "ordinary": 94,
+            "cash_business": 44,
+            "bill_split": 2,
+            "payroll": 1
+          },
+          "pr_auc": 0.7416659933128014,
+          "recall_at_rules_volume": 0.8761904761904762
+        },
+        "account + network (A+B)": {
+          "alerts": 300,
+          "recall": 0.7714285714285715,
+          "precision": 0.54,
+          "recall_by_typology": {
+            "structuring": 0.82,
+            "layering": 0.6705882352941176,
+            "cycle": 0.8769230769230769,
+            "gather_scatter": 0.7
+          },
+          "false_positives": {
+            "ordinary": 117,
+            "cash_business": 19,
+            "payroll": 1,
+            "bill_split": 1
+          },
+          "pr_auc": 0.7569260440056841,
+          "recall_at_rules_volume": 0.9380952380952381
+        },
+        "account + flow + network": {
+          "alerts": 300,
+          "recall": 0.7666666666666667,
+          "precision": 0.5366666666666666,
+          "recall_by_typology": {
+            "structuring": 0.8,
+            "layering": 0.7176470588235294,
+            "cycle": 0.8,
+            "gather_scatter": 0.8
+          },
+          "false_positives": {
+            "ordinary": 109,
+            "cash_business": 29,
+            "bill_split": 1
+          },
+          "pr_auc": 0.7598103658910899,
+          "recall_at_rules_volume": 0.9285714285714286
+        },
+        "network only (B)": {
+          "alerts": 300,
+          "recall": 0.2523809523809524,
+          "precision": 0.17666666666666667,
+          "recall_by_typology": {
+            "structuring": 0.06,
+            "layering": 0.0,
+            "cycle": 0.7538461538461538,
+            "gather_scatter": 0.1
+          },
+          "false_positives": {
+            "ordinary": 237,
+            "cash_business": 7,
+            "processor": 2,
+            "bill_split": 1
+          },
+          "pr_auc": 0.2776860407752204,
+          "recall_at_rules_volume": 0.5190476190476191
+        }
+      },
+      {
+        "rules": {
+          "alerts": 1632,
+          "recall": 0.22660098522167488,
+          "precision": 0.028186274509803922,
+          "recall_by_typology": {
+            "structuring": 0.54,
+            "layering": 0.06097560975609756,
+            "cycle": 0.09836065573770492,
+            "gather_scatter": 0.8
+          },
+          "false_positives": {
+            "cash_business": 872,
+            "ordinary": 631,
+            "processor": 40,
+            "bill_split": 34,
+            "merchant": 6,
+            "payroll": 3
+          }
+        },
+        "account (A)": {
+          "alerts": 300,
+          "recall": 0.729064039408867,
+          "precision": 0.49333333333333335,
+          "recall_by_typology": {
+            "structuring": 0.86,
+            "layering": 0.5853658536585366,
+            "cycle": 0.8360655737704918,
+            "gather_scatter": 0.6
+          },
+          "false_positives": {
+            "ordinary": 126,
+            "cash_business": 23,
+            "bill_split": 2,
+            "payroll": 1
+          },
+          "pr_auc": 0.7292666444341854,
+          "recall_at_rules_volume": 0.8719211822660099
+        },
+        "account + flow match": {
+          "alerts": 300,
+          "recall": 0.7586206896551724,
+          "precision": 0.5133333333333333,
+          "recall_by_typology": {
+            "structuring": 0.92,
+            "layering": 0.5975609756097561,
+            "cycle": 0.8524590163934426,
+            "gather_scatter": 0.7
+          },
+          "false_positives": {
+            "ordinary": 125,
+            "cash_business": 21
+          },
+          "pr_auc": 0.7512205449551799,
+          "recall_at_rules_volume": 0.8669950738916257
+        },
+        "account + network (A+B)": {
+          "alerts": 300,
+          "recall": 0.7931034482758621,
+          "precision": 0.5366666666666666,
+          "recall_by_typology": {
+            "structuring": 0.94,
+            "layering": 0.5853658536585366,
+            "cycle": 0.9508196721311475,
+            "gather_scatter": 0.8
+          },
+          "false_positives": {
+            "ordinary": 100,
+            "cash_business": 36,
+            "bill_split": 2,
+            "payroll": 1
+          },
+          "pr_auc": 0.7576553649647257,
+          "recall_at_rules_volume": 0.916256157635468
+        },
+        "account + flow + network": {
+          "alerts": 300,
+          "recall": 0.7881773399014779,
+          "precision": 0.5333333333333333,
+          "recall_by_typology": {
+            "structuring": 0.94,
+            "layering": 0.6097560975609756,
+            "cycle": 0.9016393442622951,
+            "gather_scatter": 0.8
+          },
+          "false_positives": {
+            "ordinary": 106,
+            "cash_business": 32,
+            "payroll": 1,
+            "merchant": 1
+          },
+          "pr_auc": 0.7589555228564231,
+          "recall_at_rules_volume": 0.8817733990147784
+        },
+        "network only (B)": {
+          "alerts": 300,
+          "recall": 0.3251231527093596,
+          "precision": 0.22,
+          "recall_by_typology": {
+            "structuring": 0.06,
+            "layering": 0.036585365853658534,
+            "cycle": 0.9508196721311475,
+            "gather_scatter": 0.2
+          },
+          "false_positives": {
+            "ordinary": 208,
+            "cash_business": 12,
+            "bill_split": 6,
+            "merchant": 5,
+            "processor": 2,
+            "payroll": 1
+          },
+          "pr_auc": 0.19193577371463152,
+          "recall_at_rules_volume": 0.5024630541871922
+        }
+      },
+      {
+        "rules": {
+          "alerts": 1596,
+          "recall": 0.23383084577114427,
+          "precision": 0.02944862155388471,
+          "recall_by_typology": {
+            "structuring": 0.56,
+            "layering": 0.06756756756756757,
+            "cycle": 0.07462686567164178,
+            "gather_scatter": 0.9
+          },
+          "false_positives": {
+            "cash_business": 875,
+            "ordinary": 588,
+            "processor": 40,
+            "bill_split": 34,
+            "payroll": 7,
+            "merchant": 5
+          }
+        },
+        "account (A)": {
+          "alerts": 300,
+          "recall": 0.7213930348258707,
+          "precision": 0.48333333333333334,
+          "recall_by_typology": {
+            "structuring": 0.84,
+            "layering": 0.6621621621621622,
+            "cycle": 0.8059701492537313,
+            "gather_scatter": 0.0
+          },
+          "false_positives": {
+            "ordinary": 148,
+            "cash_business": 3,
+            "bill_split": 2,
+            "processor": 1,
+            "payroll": 1
+          },
+          "pr_auc": 0.6287771020405877,
+          "recall_at_rules_volume": 0.900497512437811
+        },
+        "account + flow match": {
+          "alerts": 300,
+          "recall": 0.7412935323383084,
+          "precision": 0.49666666666666665,
+          "recall_by_typology": {
+            "structuring": 0.86,
+            "layering": 0.6891891891891891,
+            "cycle": 0.8208955223880597,
+            "gather_scatter": 0.0
+          },
+          "false_positives": {
+            "ordinary": 144,
+            "cash_business": 3,
+            "bill_split": 2,
+            "processor": 1,
+            "payroll": 1
+          },
+          "pr_auc": 0.6363151195541,
+          "recall_at_rules_volume": 0.8905472636815921
+        },
+        "account + network (A+B)": {
+          "alerts": 300,
+          "recall": 0.7213930348258707,
+          "precision": 0.48333333333333334,
+          "recall_by_typology": {
+            "structuring": 0.82,
+            "layering": 0.6216216216216216,
+            "cycle": 0.8656716417910447,
+            "gather_scatter": 0.0
+          },
+          "false_positives": {
+            "ordinary": 149,
+            "processor": 2,
+            "payroll": 2,
+            "bill_split": 2
+          },
+          "pr_auc": 0.6814766651631071,
+          "recall_at_rules_volume": 0.9353233830845771
+        },
+        "account + flow + network": {
+          "alerts": 300,
+          "recall": 0.7313432835820896,
+          "precision": 0.49,
+          "recall_by_typology": {
+            "structuring": 0.84,
+            "layering": 0.6216216216216216,
+            "cycle": 0.8507462686567164,
+            "gather_scatter": 0.2
+          },
+          "false_positives": {
+            "ordinary": 147,
+            "payroll": 2,
+            "bill_split": 2,
+            "processor": 1,
+            "cash_business": 1
+          },
+          "pr_auc": 0.6966983322280207,
+          "recall_at_rules_volume": 0.9303482587064676
+        },
+        "network only (B)": {
+          "alerts": 300,
+          "recall": 0.32338308457711445,
+          "precision": 0.21666666666666667,
+          "recall_by_typology": {
+            "structuring": 0.06,
+            "layering": 0.08108108108108109,
+            "cycle": 0.8208955223880597,
+            "gather_scatter": 0.1
+          },
+          "false_positives": {
+            "ordinary": 215,
+            "cash_business": 13,
+            "payroll": 3,
+            "merchant": 2,
+            "processor": 1,
+            "bill_split": 1
+          },
+          "pr_auc": 0.32314885609008204,
+          "recall_at_rules_volume": 0.48258706467661694
+        }
+      }
+    ]
+  }
+}

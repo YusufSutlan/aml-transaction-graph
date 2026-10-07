@@ -1,0 +1,9 @@
+[project]
+name = "aml-transaction-graph"
+version = "0.1.0"
+description = "Anti-money-laundering transaction monitoring: rules vs account models vs network features"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
